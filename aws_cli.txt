@@ -1,0 +1,50 @@
+aws configure: Set up AWS CLI with your credentials.
+aws ec2 describe-instances: List EC2 instances.
+aws s3 ls: List S3 buckets.
+aws s3 cp: Copy files to and from S3.
+aws s3 mb: Create a new S3 bucket.
+aws s3 rb: Delete an S3 bucket.
+aws s3 sync: Sync directories and S3 prefixes.
+aws iam list-users: List IAM users.
+aws ec2 run-instances: Launch EC2 instances.
+aws ec2 stop-instances: Stop EC2 instances.
+aws ec2 terminate-instances: Terminate EC2 instances.
+aws dynamodb list-tables: List DynamoDB tables.
+aws dynamodb put-item: Add items to DynamoDB table.
+aws lambda list-functions: List Lambda functions.
+aws lambda create-function: Create a new Lambda function.
+aws cloudformation create-stack: Create a CloudFormation stack.
+aws cloudformation delete-stack: Delete a CloudFormation stack.
+aws rds describe-db-instances: List RDS instances.
+aws sns list-topics: List SNS topics.
+aws sqs list-queues: List SQS queues.
+aws logs describe-log-groups: List CloudWatch log groups.
+aws ec2 describe-vpcs: List VPCs.
+aws ec2 create-vpc: Create a new VPC.
+aws ec2 describe-security-groups: List security groups.
+aws ec2 authorize-security-group-ingress: Add rules to a security group.
+aws s3api get-object: Retrieve objects from S3.
+aws s3api put-object: Upload an object to S3.
+aws ec2 describe-subnets: List subnets.
+aws ec2 create-subnet: Create a new subnet.
+aws ec2 attach-internet-gateway: Attach an Internet gateway to a VPC.
+aws ec2 create-route-table: Create a route table.
+aws ec2 create-route: Create a route in a route table.
+aws ec2 associate-route-table: Associate a route table with a subnet.
+aws iam create-role: Create a new IAM role.
+aws iam attach-role-policy: Attach a policy to a role.
+aws kms list-keys: List KMS keys.
+aws kms create-key: Create a KMS key.
+aws ssm put-parameter: Add a parameter to SSM.
+aws ssm get-parameters: Retrieve parameters from SSM.
+aws cloudwatch list-metrics: List CloudWatch metrics.
+aws cloudwatch put-metric-alarm: Create a CloudWatch alarm.
+aws ecr get-login-password: Get ECR login password.
+aws ecr create-repository: Create an ECR repository.
+aws ecs list-clusters: List ECS clusters.
+aws ecs create-cluster: Create an ECS cluster.
+aws ecs run-task: Run a task in ECS.
+aws ecs update-service: Update a service in ECS.
+aws autoscaling describe-auto-scaling-groups: List Auto Scaling groups.
+aws autoscaling create-auto-scaling-group: Create an Auto Scaling group.
+aws autoscaling set-desired-capacity: Set desired capacity for an Auto Scaling group.

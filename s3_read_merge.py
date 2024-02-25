@@ -1,5 +1,6 @@
 import pandas as pd
 import pyarrow.dataset as ds
+import glob
 
 option 1
 # Specify your S3 bucket and folder path
@@ -14,12 +15,16 @@ dataset = ds.dataset(s3_path, format='parquet')
 final_dataframe = dataset.to_table().to_pandas()
 
 option 2
-# # Specify your S3 bucket and folder path
+# Specify your S3 bucket and folder path
 # bucket_name = 'your-bucket-name'
 # folder_path = 'path/to/your/folder'
 
-# # Use a wildcard to specify that you want to read all Parquet files in the folder
+# Use a wildcard to specify that you want to read all Parquet files in the folder
 # s3_path = f's3://{bucket_name}/{folder_path}/*.parquet'
 
 # # Read all Parquet files into a single DataFrame
 # final_dataframe = pd.read_parquet(s3_path)
+
+# option 3
+# files = glob.glob('../files/multi_csv_test_parquet/*.parquet')
+# df = pd.concat([pd.read_parquet(f) for f in files], ignore_index=True)
